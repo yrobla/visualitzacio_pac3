@@ -13,13 +13,6 @@ body {
    line-height: 1;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
 h1 {
 	color: #5499c7;
 	text-align: left;
@@ -34,6 +27,14 @@ h1.title {
 h2 {
   font-size:1.6rem;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 
 
 .site-footer {
@@ -51,6 +52,7 @@ h2 {
 
 .site-footer > p {
   float:right;
+  width:30%;
 }
 
 #wrapper-bars {
@@ -63,6 +65,7 @@ h2 {
    display: flex;
    flex-direction: column;
    background-color: #5499c7;
+   padding-left:15px;
 }
 
 #search {
@@ -383,34 +386,6 @@ hr {
 	padding-right:10px !important;
 }
 
-input[type=radio] {
-	display: none;
-}
-input[type=radio]:after {
-	height: 1em;
-}
-
-input[type="radio"] + label:before {
-	content: "";
-	width: 15px;
-	height: 15px;
-	float: left;
-	margin: 0 0.5em 0 0;
-	background: #fff;
-}
-
-input[type=radio]:checked + label:after {
-   content: "";
-    width: 10px;
-    height: 10px;
-    border: 5px solid #5499c7;
-    float: left;
-    margin-left: -1.5em;
-    margin-top: 0.2em;
-    border-right: 0;
-    border-top: 0;
-    transform: rotate(-55deg);
-}
 
 .bigger {
 	font-size: 3rem ;
